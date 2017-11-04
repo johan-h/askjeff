@@ -1,0 +1,81 @@
+<!--
+A Hyper Island Student Project. Ask Jeff The Guru.
+Copyright - Ellioth Axelsson & Johan Hallenberg. v1.0.
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta property="og:url" content="http://www.askjeff.co">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ask Jeff the Hyper Island guru">
+    <meta property="og:description" content="Ask Jeff the Guru is a interactive bot answering your questions regarding attending Hyper Island, being intrested or about to apply to any of the programs.">
+    <meta property="og:image" content="http://www.askjeff.co/img/share.png">
+
+    <title>Ask Jeff - The Hyper Island Guru</title>
+
+    <!-- This is your .css dumbass -->
+    <link rel="stylesheet" href="/css/main.css">
+
+  </head>
+  <body>
+
+    <!-- Include Facebook SDK to Jeff -->
+    <div id="fb-root"></div>
+
+    <div id="head" class="jeff">
+
+      <div id="shades"></div>
+
+      <div class="talk">
+        <!-- Text from the javascript goes here -->
+      </div>
+    </div>
+
+    <!-- Main communication field -->
+		<div class="absolute-center">
+      <div class="input-header">Ask Jeff the Guru!</div>
+      <div class="input-help"><a class="open-popup" href="#popup">Need help?</a></div><p>
+          <input type="text" id="txt" name="q" placeholder="Hombre, ask me anything about Hyper..." autocomplete="off" autofocus>
+          <div id="result">
+          <!-- Text from javascript goes here -->
+          </div>
+	  </div>
+
+    <!-- Popup displayed when clicking "Need help?" -->
+    <div id="popup" style="display: none; width: 640px">
+      <p class="header">About - Ask Jeff the Guru!</p />
+      <p class="text big">
+        Applicants, students, facilitators and alumnis of our school can get information, tools, contacts and advice on everything Hyper and quick by asking an interactive guru. In this particular case, Jeff, our awesome admission-go-to-guy.</p>
+      <p class="text lh">
+      It's easy to get going. Type your question and then hit <span class="question">ENTER</span>. If you need any help with inspiration we provide tons of them down here. Help yourself:
+      </p>
+      <p class="text lh">
+        Check out wierd stuff: <span class="question">"i'm a cheater"</span><br>
+        Play some cool music: <span class="question">"music please"</span><br>
+        Wanna know more about Hyper Island: <span class="question">"what is hyper island?"</span><br>
+        Who is this Jeff guy really? <span class="question">"who is Jeff?"</span><br>
+        Need more information about a specific program: <span class="question">"what is DMC?"</span><span class="question">"IED?"</span> etc..<br>
+        Stuck with old energizers? <span class="question">"hand over a new energizer"</span><br>
+        Feeling stressed? <span class="question">"i'm feeling stressed"</span><br>
+        Am I ready for Hyper? <span class="question">"Am i ready for Hyper?"</span><br>
+      </p>
+      <p class="extra">This is entierly build on love and swedish julmust by <hl>Ellioth Axelsson</hl> and <hl>Johan Hallenberg</hl> at Hyper Island in the cold country called Sweden.</p>
+    </div>
+
+
+	  <div class="footer">
+	  Made with <3 by <a href="https://www.facebook.com/elliotmusicguy/"><b>@Ellioth</b></a> and <a href="http://www.hallenberg.co"><b>@Johan</b></a> at Hyper Island.
+    </div>
+
+	  <!-- Javascript & jQuery integration -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/lib/ac.min.js"></script>
+    <script src="js/lib/fcp.min.js"></script>
+    <script src="js/q.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lib/snowfall.jquery.min.js"></script>
+  </body>
+</html>
+
